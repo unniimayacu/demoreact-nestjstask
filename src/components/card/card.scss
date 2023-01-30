@@ -1,0 +1,54 @@
+// @use "../../variables";
+// @use "../../custommixins" as cm;
+
+// $grad-from: #2b146c;
+// $grad-to: #df7552;
+// $bg-solid: #591e71;
+.cif__card-wrapper {
+    border-radius: 0.4rem;
+    color: white;
+    background-color: #9578a3;
+    position: relative;
+    // overflow: hidden;
+    padding: 0.5rem 1rem;
+    max-width: 330px;
+    margin: auto;
+}
+
+// .card__background-gradient {
+    // background: rgb(43, 20, 108);
+    // background: linear-gradient( 180deg, rgba(43, 20, 108, 1) 0%, rgba(223, 117, 82, 1) 100%);
+
+    // @include cm.bg-card-gradient-top-bottom;
+    // min-height: 200px;
+// }
+
+.cif__card-icon-wrapper {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cif__card-icon {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+}
+
+.cif__card-content-wrapper {
+    text-align: center;
+}
+
+.card__background_solid_primary {
+    background: rgb(88, 175, 219)
+}
+.car_price_color{
+    color: #eae589;
+}
